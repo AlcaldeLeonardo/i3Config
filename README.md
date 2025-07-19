@@ -14,9 +14,7 @@ También deberías tener instalado wezterm para la terminal (mod+Enter lo ejecut
 
 Tu estructura de configuración debería ser:
 
-bash
-Copiar
-Editar
+```bash
 ~/.config/
 ├── i3/
 │ ├── config # Este archivo
@@ -25,7 +23,7 @@ Editar
 ├── picom/
 │ └── picom.conf # Configuración de picom
 └── ...
-
+```
 ## 🖼 Fondo de pantalla
 
 Este config busca un fondo en:
