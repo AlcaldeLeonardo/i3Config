@@ -19,7 +19,7 @@ Tu estructura de configuración debería ser:
 ├── i3/
 │ ├── config # Este archivo
 │ └── scripts/
-│ └── powermenu.sh # Script de apagado
+│   └── powermenu.sh # Script de apagado
 ├── picom/
 │ └── picom.conf # Configuración de picom
 └── ...
