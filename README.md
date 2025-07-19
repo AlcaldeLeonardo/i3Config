@@ -24,6 +24,7 @@ Tu estructura de configuración debería ser:
 │ └── picom.conf # Configuración de picom
 └── ...
 ```
+
 ## 🖼 Fondo de pantalla
 
 Este config busca un fondo en la carpeta wallpaper de la raiz del repositorio
@@ -53,8 +54,10 @@ EOF
 
 chmod +x ~/.config/i3/scripts/powermenu.sh
 ```
+
 ## Configuracion de Picom
-En caso de no tener un archivo de configuracion para picom generarlo con estos comandos: 
+
+En caso de no tener un archivo de configuracion para picom generarlo con estos comandos:
 
 ```bash
 mkdir -p ~/.config/picom && cat > ~/.config/picom/picom.conf << 'EOF'
