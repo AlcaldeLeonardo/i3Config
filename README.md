@@ -26,12 +26,7 @@ Tu estructura de configuración debería ser:
 ```
 ## 🖼 Fondo de pantalla
 
-Este config busca un fondo en:
-
-```
-
-~/Imágenes/PaisajePixelArt.png
-```
+Este config busca un fondo en la carpeta wallpaper de la raiz del repositorio
 
 Asegurate de que ese archivo exista, o cambiá la línea correspondiente en el archivo config.
 
