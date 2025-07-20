@@ -23,8 +23,7 @@ gaps outer 5
 
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper/PaisajePixelArt.png
 #iniciar picon
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
-
+exec_always --no-startup-id picom --config ~/.config/i3/picom/picom.conf
 #audio con pipewire
 bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
 bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
