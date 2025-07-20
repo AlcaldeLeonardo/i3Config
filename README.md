@@ -14,7 +14,7 @@ También deberías tener instalado **Wezterm** para la terminal (mod+Enter lo ej
 
 ```bash
 mkdir -p ~/.config
-git clone https://github.com/AlcaldeLeonardo/i3Config.git ~/config/i3
+git clone https://github.com/AlcaldeLeonardo/i3Config.git ~/.config/i3
 ```
 
 
