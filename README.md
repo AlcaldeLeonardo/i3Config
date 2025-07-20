@@ -10,6 +10,14 @@ sudo pacman -S i3-wm rofi feh picom dex xss-lock i3lock network-manager-applet p
 
 También deberías tener instalado **Wezterm** para la terminal (mod+Enter lo ejecuta).
 
+## Clonar el repositorio
+
+```bash
+mkdir -p ~/.config
+git clone https://github.com/AlcaldeLeonardo/i3Config.git ~/config/i3
+```
+
+
 ## 📂 Estructura esperada
 
 Tu estructura de configuración debería ser:
