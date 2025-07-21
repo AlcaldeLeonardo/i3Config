@@ -5,12 +5,11 @@
 Asegurate de tener instalados los siguientes paquetes:
 
 ```bash
-sudo pacman -S i3-wm rofi feh picom dex xss-lock i3lock network-manager-applet pipewire wireplumber
+sudo pacman -S i3-wm rofi feh picom dex xss-lock i3lock network-manager-applet pipewire wireplumber conky wezterm
 ```
 
 También deberías tener instalado:
 
-- **Wezterm** para la terminal (mod+Enter lo ejecuta).
 - **Brave** como navegador (mod+B lo ejecuta)
 
 ## Clonar el repositorio
@@ -27,11 +26,13 @@ Tu estructura de configuración debería ser:
 ```bash
 ~/.config/
 ├── i3/
-│ ├── config # Este archivo
-│ └── scripts/
-│   └── powermenu.sh # Script de apagado
-├── picom/
-│ └── picom.conf # Configuración de picom
+│   ├── config # Este archivo
+│   ├── conky/
+    │   └── conky.conf #configuración de conky
+    ├── scripts/
+│   │   └── powermenu.sh # Script de apagado
+│   └── picom/
+│       └── picom.conf # Configuración de picom
 └── ...
 ```
 
