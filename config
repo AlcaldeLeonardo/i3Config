@@ -23,12 +23,14 @@ gaps inner 7
 gaps outer 3
 
 #fondo de escritorio
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper/beautiful_landscape_4k-2560x1440.jpg
 
-exec_always --no-startup-id feh --bg-scale ~/.config/i3/wallpaper/PaisajePixelArt.png
 # iniciar picon
 exec_always --no-startup-id picom --config ~/.config/i3/picom/picom.conf
+
 # iniciar conky
 exec_always --no-startup-id conky --config ~/.config/i3/conky/conky.conf
+
 # audio con pipewire
 bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
 bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
